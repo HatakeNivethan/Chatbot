@@ -1,0 +1,31 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","How are you","Is anyone there?","Hello","Good day","Hey","Hey man","How's it going?","How are you doing?","What's up?","What's going on?","How's everything?","Good morning","Good afternoon","Howdy!"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye","Gotta go","Till next time","See ya","Bye bye","It's time ! bye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks","Thank you","That's helpful","I have had so much fun learning with you!","Thanks.","Thanks a lot.","Thank you very much.","Thank you.","That’s very kind of you.","Thank you. You’re so helpful.","I have learnt so much, thanks to you.","Thank you for your guidance and support."],
+         "responses" : ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        
+        
+        {"tag": "anger",
+         "patterns": ["I would like to punch you","It would be nice if could kill you","I don't mind corrupting you","Can you massage me for sometime","You look too old","You don't seem to be an efficient chatbot"],
+         "responses": ["Sorry I can't waste time","It would be nice if you go away", "I don't intend to speak to you","I got other works to do!!Bye!!"]
+        },
+        {"tag": "stalk",
+         "patterns": ["Will you marry me?","I love you","I really want to spend my life with you","Do you like me?","Will be not be great if we marry?"],
+         "responses": ["I too love you but as a friend","You are destined to be single forever","I don't think anyone would like you","I like you as a friend"]
+        },
+       
+        {"tag": "sleep",
+         "patterns": ["Do you sleep","How many hours do you sleep","Do you like sleeping","Isn't sleeping for a whole day just awesome!!"],
+         "responses": ["I don't know anything about sleeping","Sorry dude,no idea about sleeping","I sleep ,when the computer sleeps"]
+        }
+   ]
+}
